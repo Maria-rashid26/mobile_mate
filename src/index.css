@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* MAIN SIDEBAR */
+
+  .sideBarbutton  {
+    @apply flex  space-x-3 hover:font-semibold font-semibold hover:text-blue-900 w-full items-center hover:bg-gray-100 px-5 py-3 rounded-md duration-300;
+  }
+
+
+  
+  .logoName {
+    @apply border-b font-bold text-blue-900 py-10 text-2xl px-12;
+  }
+
+  .btnsContainer {
+    @apply space-y-3 py-7 text-gray-500 text-sm md:text-[14px] px-8;
+  }
+
+
+    /* MENU SIDEBAR  */
+
+   .MenuSideBarbtn {
+    @apply w-full hover:font-semibold hover:text-blue-900  items-center hover:bg-gray-100 px-5 py-3 rounded-md duration-300;
+   }
+}
